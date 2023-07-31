@@ -1,15 +1,15 @@
 {
-  "name": "haringsrob/livewire-datepicker",
+  "name": "flat-duck/livewire-datepicker",
   "description": "A standalone livewire datepicker component without dependencies",
   "license": "MIT",
   "authors": [
     {
       "name": "Harings Rob",
-      "email": "haringsrob@gmail.com",
+      "email": "flat-duck@gmail.com",
       "homepage": "https://harings.be"
     }
   ],
-  "homepage": "https://github.com/haringsrob/livewire-datepicker",
+  "homepage": "https://github.com/flat-duck/livewire-datepicker",
   "keywords": [
     "Laravel",
     "LivewireDatepicker"
@@ -25,21 +25,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Haringsrob\\LivewireDatepicker\\": "src/"
+      "FlatDuck\\LivewireDatepicker\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Haringsrob\\LivewireDatepicker\\Tests\\": "tests"
+      "FlatDuck\\LivewireDatepicker\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Haringsrob\\LivewireDatepicker\\LivewireDatepickerServiceProvider"
+        "FlatDuck\\LivewireDatepicker\\LivewireDatepickerServiceProvider"
       ],
       "aliases": {
-        "LivewireDatepicker": "Haringsrob\\LivewireDatepicker\\Facades\\LivewireDatepicker"
+        "LivewireDatepicker": "FlatDuck\\LivewireDatepicker\\Facades\\LivewireDatepicker"
       }
     }
   }

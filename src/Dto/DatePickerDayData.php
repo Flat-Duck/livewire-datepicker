@@ -1,6 +1,6 @@
 <?php
 
-namespace Haringsrob\LivewireDatepicker\Dto;
+namespace FlatDuck\LivewireDatepicker\Dto;
 
 use Carbon\Carbon;
 

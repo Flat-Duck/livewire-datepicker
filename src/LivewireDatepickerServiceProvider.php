@@ -1,8 +1,8 @@
 <?php
 
-namespace Haringsrob\LivewireDatepicker;
+namespace FlatDuck\LivewireDatepicker;
 
-use Haringsrob\LivewireDatepicker\Http\Livewire\DatePickerComponent;
+use FlatDuck\LivewireDatepicker\Http\Livewire\DatePickerComponent;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
 
@@ -59,7 +59,7 @@ class LivewireDatepickerServiceProvider extends ServiceProvider
 
         // Publishing the views.
         $this->publishes([
-            __DIR__ . '/../resources/views' => base_path('resources/views/vendor/haringsrob'),
+            __DIR__ . '/../resources/views' => base_path('resources/views/vendor/flat-duck'),
         ], 'livewire-datepicker.views');
     }
 }

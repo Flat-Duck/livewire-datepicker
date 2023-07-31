@@ -1,11 +1,11 @@
 <?php
 
-namespace Haringsrob\LivewireDatepicker\Http\Livewire;
+namespace FlatDuck\LivewireDatepicker\Http\Livewire;
 
 use Carbon\Carbon;
 use Carbon\CarbonInterface;
 use Carbon\CarbonPeriod;
-use Haringsrob\LivewireDatepicker\Dto\DatePickerDayData;
+use FlatDuck\LivewireDatepicker\Dto\DatePickerDayData;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
 use Livewire\Component;

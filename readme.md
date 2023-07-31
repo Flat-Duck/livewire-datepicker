@@ -13,20 +13,20 @@ This is not yet a stable release.
 Via Composer
 
 ``` bash
-$ composer require haringsrob/livewire-datepicker
+$ composer require flat-duck/livewire-datepicker
 ```
 
 ## Usage
 
 This package uses tailwindcss.
 
-You need to add `./vendor/haringsrob/livewire-datepicker/resources/**/*.blade.php` to the purge list of your
+You need to add `./vendor/flat-duck/livewire-datepicker/resources/**/*.blade.php` to the purge list of your
 tailwind.config.json
 
 To use this, create a new livewire component and extend the `DatePickerComponent` class:
 
 ```php
-use Haringsrob\LivewireDatepicker\Http\Livewire\DatePickerComponent;
+use FlatDuck\LivewireDatepicker\Http\Livewire\DatePickerComponent;
 
 class TestCalendar extends DatePickerComponent
 {
@@ -90,7 +90,7 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 ## Security
 
-If you discover any security related issues, please email haringsrob@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email flat-duck@gmail.com instead of using the issue tracker.
 
 ## License
 

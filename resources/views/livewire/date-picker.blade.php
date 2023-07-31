@@ -25,7 +25,7 @@
     @endforeach
     @foreach ($dates as $index => $day)
       @php
-        /** @var \Haringsrob\LivewireDatepicker\Dto\DatePickerDayData $dayData */
+        /** @var \FlatDuck\LivewireDatepicker\Dto\DatePickerDayData $dayData */
         $dayData = $this->getAvailabilityFor($day);
       @endphp
       @if ($loop->first)
